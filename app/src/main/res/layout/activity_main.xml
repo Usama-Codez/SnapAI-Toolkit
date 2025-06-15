@@ -1,0 +1,93 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:title="ML Kit Features"
+        android:titleTextColor="@android:color/white"
+        app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_marginTop="56dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_bg"
+            android:elevation="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to ML Kit App"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_900"
+            android:layout_marginTop="20dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btn_text_recognition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text Recognition"
+            android:layout_marginTop="32dp"
+            style="@style/Widget.MaterialComponents.Button"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_face_detection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Face Detection"
+            android:layout_marginTop="16dp"
+            style="@style/Widget.MaterialComponents.Button"
+            android:backgroundTint="@color/teal_600"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_barcode_scanning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barcode Scanning"
+            android:layout_marginTop="16dp"
+            style="@style/Widget.MaterialComponents.Button"
+            android:backgroundTint="@color/teal_500"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_object_detection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Object Detection"
+            android:layout_marginTop="16dp"
+            style="@style/Widget.MaterialComponents.Button"
+            android:backgroundTint="@color/teal_400"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/teal_700"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/bottom_nav_menu" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Camera Preview -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Face Detection Overlay -->
+    <com.example.mlkitapp.FaceDetectionOverlay
+        android:id="@+id/face_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Face Data Panel with RecyclerView for multiple faces -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/face_data_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:alpha="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/tv_face_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faces detected: 0"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:paddingBottom="4dp"/>
+
+            <!-- RecyclerView for multiple faces -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_faces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="true"
+                android:maxHeight="240dp"/>
+
+            <!-- Legacy TextViews for backward compatibility -->
+            <TextView
+                android:id="@+id/tv_smile_probability"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Smile probability: --"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_right_eye_open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Right eye open: --"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_left_eye_open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Left eye open: --"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Capture Frame Button -->
+    <Button
+        android:id="@+id/btn_capture_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture Frame"
+        android:layout_margin="16dp"
+        style="@style/Widget.MaterialComponents.Button"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Toggle Face Features Button -->
+    <Button
+        android:id="@+id/btn_toggle_features"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Features"
+        android:layout_margin="16dp"
+        style="@style/Widget.MaterialComponents.Button"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
