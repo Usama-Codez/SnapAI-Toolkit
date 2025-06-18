@@ -83,11 +83,11 @@ implementation "androidx.camera:camera-view:1.0.0-alpha32"
 
 | OCR                      | Face Detection         |
 |--------------------------|------------------------|
-| ![OCR](screenshots/) | ![Face](screenshots/) |
+| ![OCR](screenshots/s7.jpg) | ![Face](screenshots/s4) |
 
 | Barcode Scanner          | Object Detection       |
 |--------------------------|------------------------|
-| ![Barcode](screenshots/) | ![Object](screenshot) |
+| ![Barcode](screenshots/s1.jpg) | ![Object](screenshot/s3.jpg) |
 
 ---
 
