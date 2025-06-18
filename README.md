@@ -9,7 +9,7 @@ An Android Studio project built using **Firebase ML Kit** to demonstrate some ma
 1. **Clone this repo** or download the source code:
 
 ```bash
-git clone https://github.com/Usama-Codez/mlkit-smart-camera-app
+git clone https://github.com/Usama-Codez/SnapAI-Toolkit
 ```
 
 2. Open with Android Studio
