@@ -79,16 +79,24 @@ implementation "androidx.camera:camera-view:1.0.0-alpha32"
 
 ## Screenshots
 
-> Add your screenshots to a `/screenshots` folder and use them like below.
-
-| OCR                      | Face Detection         |
-|--------------------------|------------------------|
-| ![OCR](screenshots/s7.jpg) | ![Face](screenshots/s4) |
-
-| Barcode Scanner          | Object Detection       |
-|--------------------------|------------------------|
-| ![Barcode](screenshots/s1.jpg) | ![Object](screenshot/s3.jpg) |
-
+<table>
+  <tr>
+    <td><strong>OCR</strong></td>
+    <td><strong>Face Detection</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/s7.jpg" width="250"/></td>
+    <td><img src="screenshots/s4.jpg" width="250"/></td>
+  </tr>
+  <tr>
+    <td><strong>Barcode Scanner</strong></td>
+    <td><strong>Object Detection</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/s1.jpg" width="250"/></td>
+    <td><img src="screenshots/s3.jpg" width="250"/></td>
+  </tr>
+</table>
 ---
 
 ## 📜 License
