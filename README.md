@@ -111,7 +111,7 @@ This project is part of the **Software for Mobile Devices** course at **FAST NUC
 **Usama Akram**  
 📫 [LinkedIn](https://linkedin.com/in/usama-codez)  
 📫 [GitHub](https://github.com/usama-codez)  
-📫 [Portfolio](usamaakram.netlify.app)  
+📫 [Portfolio](https://usamaakram.netlify.app)  
 ---
 
 ## Show Some Love  
