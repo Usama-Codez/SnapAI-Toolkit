@@ -1,4 +1,4 @@
-# SnapAI Toolkit Smart Camera App
+# SnapAI Toolkit App
 
 An Android Studio project built using **Firebase ML Kit** to demonstrate some machine learning features in mobile devices. This app combines four intelligent computer vision tasks with clean UI design and intuitive user interaction.
 
