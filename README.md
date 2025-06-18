@@ -97,12 +97,12 @@ implementation "androidx.camera:camera-view:1.0.0-alpha32"
     <td><img src="screenshots/s3.jpg" width="200"/></td>
   </tr>
 </table>
+
 ---
 
 ## 📜 License
 
 This project is part of the **Software for Mobile Devices** course at **FAST NUCES**.  
-> For **academic demonstration purposes**.
 
 ---
 
@@ -111,7 +111,7 @@ This project is part of the **Software for Mobile Devices** course at **FAST NUC
 **Usama Akram**  
 📫 [LinkedIn](https://linkedin.com/in/usama-codez)  
 📫 [GitHub](https://github.com/usama-codez)  
-
+📫 [Portfolio](usamaakram.netlify.app)  
 ---
 
 ## Show Some Love  
