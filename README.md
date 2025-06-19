@@ -17,7 +17,7 @@ File → Open → Select the root folder
 
 3. Connect your Android device or use an emulator.
 
-4. Run the project using ▶️ in Android Studio.
+4. Run the project using in Android Studio.
 
 💡 Make sure your Firebase dependencies are synced. Internet access required at first run.
 
