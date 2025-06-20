@@ -13,7 +13,7 @@ git clone https://github.com/Usama-Codez/SnapAI-Toolkit
 ```
 
 2. Open with Android Studio
-File → Open → Select the root folder
+File then Open then Select the root folder
 
 3. Connect your Android device or use an emulator.
 
