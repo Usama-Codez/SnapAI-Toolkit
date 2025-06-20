@@ -21,7 +21,7 @@ File → Open → Select the root folder
 
 💡 Make sure your Firebase dependencies are synced. Internet access required at first run.
 
-📂 Project Structure
+## Project Structure
 ```bash
 app/
 ├── java/
